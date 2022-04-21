@@ -1,48 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T11:52:19.576Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="AglhoOfUx1lR73E-hnVW" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T12:33:12.952Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="PvTmba6oT9opwauzSldF" version="17.4.6" type="github">
   <diagram id="q4dfYGu4iJA2e6SYoyLU" name="Page-1">
     <mxGraphModel dx="2066" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BnWA-Fqiu9hO_94x-IY0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BnWA-Fqiu9hO_94x-IY0-1" target="BnWA-Fqiu9hO_94x-IY0-10">
+        <mxCell id="BnWA-Fqiu9hO_94x-IY0-15" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="480" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="BnWA-Fqiu9hO_94x-IY0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="BnWA-Fqiu9hO_94x-IY0-1" target="BnWA-Fqiu9hO_94x-IY0-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="260" y="280" />
-              <mxPoint x="420" y="280" />
+              <mxPoint x="120" y="380" />
+              <mxPoint x="280" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BnWA-Fqiu9hO_94x-IY0-1" value="Roles" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="320" width="120" height="40" as="geometry" />
+          <mxGeometry x="60" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BnWA-Fqiu9hO_94x-IY0-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BnWA-Fqiu9hO_94x-IY0-2" target="BnWA-Fqiu9hO_94x-IY0-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BnWA-Fqiu9hO_94x-IY0-2" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="230" y="500" width="60" height="80" as="geometry" />
+          <mxGeometry x="90" y="590" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BnWA-Fqiu9hO_94x-IY0-5" value="Roles Service fetches permissions from Instap DB (Items Service) and translates it to Common JSON Token" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=30;position=0.5;" vertex="1" parent="1">
-          <mxGeometry x="90" y="370" width="160" height="150" as="geometry" />
+          <mxGeometry x="130" y="490" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="BnWA-Fqiu9hO_94x-IY0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BnWA-Fqiu9hO_94x-IY0-6" target="BnWA-Fqiu9hO_94x-IY0-10">
+        <mxCell id="BnWA-Fqiu9hO_94x-IY0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="BnWA-Fqiu9hO_94x-IY0-6" target="BnWA-Fqiu9hO_94x-IY0-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BnWA-Fqiu9hO_94x-IY0-6" value="Items" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="320" width="120" height="40" as="geometry" />
+          <mxGeometry x="220" y="420" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BnWA-Fqiu9hO_94x-IY0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BnWA-Fqiu9hO_94x-IY0-7" target="BnWA-Fqiu9hO_94x-IY0-10">
+        <mxCell id="BnWA-Fqiu9hO_94x-IY0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="BnWA-Fqiu9hO_94x-IY0-7" target="BnWA-Fqiu9hO_94x-IY0-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="580" y="280" />
-              <mxPoint x="420" y="280" />
+              <mxPoint x="440" y="380" />
+              <mxPoint x="280" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BnWA-Fqiu9hO_94x-IY0-7" value="Definitions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="320" width="120" height="40" as="geometry" />
+          <mxGeometry x="380" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BnWA-Fqiu9hO_94x-IY0-10" value="Roles .JAR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="200" width="120" height="40" as="geometry" />
+          <mxGeometry x="220" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BnWA-Fqiu9hO_94x-IY0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;startArrow=classic;startFill=1;" edge="1" parent="1" source="BnWA-Fqiu9hO_94x-IY0-16" target="BnWA-Fqiu9hO_94x-IY0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BnWA-Fqiu9hO_94x-IY0-16" value="Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BnWA-Fqiu9hO_94x-IY0-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="BnWA-Fqiu9hO_94x-IY0-19" target="BnWA-Fqiu9hO_94x-IY0-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BnWA-Fqiu9hO_94x-IY0-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BnWA-Fqiu9hO_94x-IY0-20" value="Definitions UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BnWA-Fqiu9hO_94x-IY0-22" value="Items UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="60" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
